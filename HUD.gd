@@ -17,7 +17,6 @@ func show_game_over():
 	$MessageLabel.show()
 	yield(get_tree().create_timer(1.0), "timeout")
 	$Button.show()
-	void_show()
 	
 
 func _on_Button_pressed():
